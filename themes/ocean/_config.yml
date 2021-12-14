@@ -1,0 +1,45 @@
+# Menu
+menu:
+  主页: /
+  归档: /archives
+  相册: /gallery
+  关于: /about
+rss: /atom.xml
+
+# Miscellaneous
+favicon: /favicon.ico
+brand: /images/hexo.svg
+
+# Ocean 主页视频
+# 多种格式的视频用于支持不同的浏览器，这里只需要配置好路径，前提是我把视频相关文件统一目录存放。
+ocean:
+  overlay: true      # 可选，false 则 Ocean 视频下方的笔触式遮盖不显示
+  path: /images/ocean/      # 视频统一存放路径，格式 mp4/ogg/webm
+  brand: /images/hexo-inverted.svg      # 可选，一个小 Logo
+
+# 内容
+excerpt_link: 阅读全文...
+
+# fancybox
+fancybox: true
+
+# Gitalk
+gitalk:
+  enable: false      # 是否启用，默认：false（关闭），true（启用）
+  clientID:      # 申请 GitHub Application 网页上对应的 Client ID 与 Client Secret 参数
+  clientSecret:      # 同上
+  repo:      # 创建的仓库名称
+  owner:      # Github ID
+  admin:      # Github ID
+
+# Valine
+valine:
+  enable: false      # 是否启用，默认：false（关闭），true（启用）
+  el: 'vcomments'      # Valine 的初始化挂载器，无需更改
+  appId:       # 从 LeanCloud 的应用中得到的 appId
+  appKey:       # 从 LeanCloud 的应用中得到的APP Key
+  notify: false      # 评论回复邮件提醒，默认：false（关闭），true（启用）
+  verify: true      # 验证码，为避免过多的垃圾评论，所以默认 true（启用），false（关闭）
+  avatar: 'mp'      # Gravatar 头像展示方式
+  pageSize: '10'      # 评论列表分页，每页条数
+  placeholder: '请输入...'      # 评论框占位提示符
