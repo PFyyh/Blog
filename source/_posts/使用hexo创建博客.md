@@ -10,6 +10,8 @@ urlname:
 
 > 梦在前方，路在脚下！
 
+如果出现了能提交但是没效果 ，重设公钥密码!!!
+
 # [使用 Git Hook 自动部署 Hexo 到个人 VPS](https://www.cnblogs.com/navysummer/p/9842065.html)
 
 ## 安装 Hexo
